@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+    <nav>
+      <svg class="hamburger" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"  color="#ffffff" fill="none">
+        <path d="M4 5L20 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M4 12L20 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M4 19L20 19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+    </svg>
+      <ul class="spotify">
+        <li class="Logo"><img src="Assets/logo.png" alt="" /></li>
+      </ul>
+      <ul class="icons">
+        <div class="home"><img src="Assets/home2.svg" alt="" id="home-icon"></div>
+        <li id="search">
+         <img src="Assets/search.svg" alt="search" id="search-icon"></i><input type="search" placeholder="What do you want to play?" id="searchinput"/><img src="Assets/vertical-line.svg" alt="vertical-line" id="vertical-line"></i>
+         <img src="Assets/browse.svg" alt="" id="browse">
+        </li>
+        <li>
+          <div id="searchContainer">
+            <input type="search" placeholder="What do you want to play?" id="mobsearchinput" />
+            <button id="closeSearch">X</button> <!-- Close button for the search -->
+          </div>
+        </li>
+        
+      </ul>
+      
+    </nav>
+    <div class="login">
+      <button id="signUpButton">Sign up</button>
+      <button id="loginButton">Log in</button>
+    </div>
+  </header>
+    <div class="container">
+      <div class="library">
+        <div class="title">
+          <img class="lib-logo"src="Assets/library1.svg" alt="library">
+          <h2>Your Library</h2>
+          <div class="lib-icon">
+            <img src="Assets/Add.svg" alt="" id="add">
+            <img src="Assets/right-arrow.svg" alt="" id="arrow">
+          </div>
+        </div>
+        <div class="songs">
+          <ul id="list">
+            
+            
+          </ul>
+        </div>
+      </div>
+      
+      <div class="songs-list">
+        <div class="title">
+          <button autofocus class="title-buttons">
+            All
+          </button class="title-buttons">
+          <button class="title-buttons">
+           Music
+          </button class="title-buttons">
+          <button class="title-buttons">
+           Podcast
+          </button>
+        </div>
+        <div class="cardContainer">
+          <h1 id="artistTitle">Popular artists</h1>
+          <div class="artistCard">
+            <div class="artist">
+              <img src="https://i.scdn.co/image/ab67616100005174cb6926f44f620555ba444fca" alt="" class="artistImg">
+              <h2 class="artistName">Pritam</h2>
+              <h3 class="identity">Artist</h3>
+            </div>
+            <div class="artist">
+              <img src="https://i.scdn.co/image/ab67616100005174b19af0ea736c6228d6eb539c" alt="" class="artistImg">
+              <h2 class="artistName">Pritam</h2>
+              <h3 class="identity">Artist</h3>
+            </div>
+            <div class="artist">
+              <img src="https://i.scdn.co/image/ab676161000051745ba2d75eb08a2d672f9b69b7" alt="" class="artistImg">
+              <h2 class="artistName">Pritam</h2>
+              <h3 class="identity">Artist</h3>
+            </div>
+            <div class="artist">
+              <img src="https://i.scdn.co/image/ab676161000051749107d8873f80a26b36f2418e" alt="" class="artistImg">
+              <h2 class="artistName">Pritam</h2>
+              <h3 class="identity">Artist</h3>
+            </div>
+            <div class="artist">
+              <img src="https://i.scdn.co/image/ab676161000051740f0be2054fe9594026a6b843" alt="" class="artistImg">
+              <h2 class="artistName">Pritam</h2>
+              <h3 class="identity">Artist</h3>
+            </div>
+            <div class="artist">
+              <img src="https://i.scdn.co/image/ab67616100005174c40600e02356cc86f0debe84" alt="" class="artistImg">
+              <h2 class="artistName">Pritam</h2>
+              <h3 class="identity">Artist</h3>
+            </div>
+          </div>
+          <h1 id="artistTitle">Popular albums</h1>
+          <div class="albumCard">
+            <div class="album">
+              <img src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" alt="" class="albumImg">
+              <h2 class="albumName">Pritam</h2>
+              <h3 class="artists">Artist</h3>
+            </div>
+            <div class="album">
+              <img src="https://i.scdn.co/image/ab67616d00001e021e63de6489803c2b39e7f8e5" alt="" class="albumImg">
+              <h2 class="albumName">Pritam</h2>
+              <h3 class="artists">Artist</h3>
+            </div>
+            <div class="album">
+              <img src="https://i.scdn.co/image/ab67616d00001e02bb25239324c4e16ae01fda36" alt="" class="albumImg">
+              <h2 class="albumName">Pritam</h2>
+              <h3 class="artists">Artist</h3>
+            </div>
+            <div class="album">
+              <img src="https://i.scdn.co/image/ab67616d00001e02707ea5b8023ac77d31756ed4" alt="" class="albumImg">
+              <h2 class="albumName">Pritam</h2>
+              <h3 class="artists">Artist</h3>
+            </div>
+            <div class="album">
+              <img src="https://i.scdn.co/image/ab67616d00001e025e16168f7e8ff4fb8aace6cf" alt="" class="albumImg">
+              <h2 class="albumName">Pritam</h2>
+              <h3 class="artists">Artist</h3>
+            </div>
+            <div class="album">
+              <img src="https://i.scdn.co/image/ab67616d00001e021d1cc2e40d533d7bcebf5dae" alt="" class="albumImg">
+              <h2 class="albumName">Pritam</h2>
+              <h3 class="artists">Artist</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="player">
+      <div class="buttons">
+        <i id="backward" class="fa-solid fa-backward fa-2xl"></i>
+        <i id="play" class="fa-solid fa-circle-play fa-2xl"></i>
+        <i id="forward" class="fa-solid fa-forward fa-2xl"></i>
+      </div>
+      <div class="playerinfo">
+        <i class="fa-solid fa-music"></i>
+        <div class="playersonginfo">
+          <p id="playersongname">Song Name</p>
+          <p id="playerartistname">artist name</p>
+        </div>
+      </div>
+      <p id="starttime">00:00</p>
+      <div class="seekbar">
+        <div class="circle">
+
+        </div>
+        
+        
+      </div>
+      <div class="volume-control">
+        <img src="Assets/volume.svg" alt="" id="volume" id="volume-icon">
+        <input type="range" id="volume-slider" min="0" max="1" step="0.01" value="1" orient="vertical">
+      </div>
+      <p id="endtime">00:00</p>
+    </div>
+  </body>
+  <script
+    src="https://kit.fontawesome.com/c0c4f1a48b.js"
+    crossorigin="anonymous"
+  ></script>
+  <script src="script.js"></script>
+</html>
+  
